@@ -1,0 +1,52 @@
+const [pathRoute, setPathRoute] = useState(router.asPath);
+const [prevRoute, setPrevRoute] = useState(router.asPath);
+const [historyState, setHistoryState] = useState({ history: [] });
+const [currState, setCurrState] = useState(router.asPath);
+const [prevState, setPrevState] = useState(currState);
+useEffect(() => {
+  const { asPath } = router;
+  setHistoryState({ history: [...prevState] });
+  setPrevRoute(pathRoute);
+  setPathRoute(asPath);
+  // setHistoryState((prevState) => ({
+  //   history: [...prevState.history, asPath],
+  // }));
+}, [router]);
+useEffect(() => {
+  pathHistory();
+}, [router]);
+
+useEffect(() => {
+  //const { history } = historyState;
+  const { asPath } = router;
+
+  // if current route (`asPath`) does not equal
+  // the latest item in the history,
+  // it is changed so lets save it
+  setPrevState(currState);
+  setCurrState(asPath);
+}, [router]);
+const pathHistory = () => {
+  const { asPath } = router;
+  // lets add initial route to `history`
+  setCurrState(asPath);
+};
+// const history = createBrowserHistory();
+// const [currPath, setCurrPath] = useState(router?.asPath);
+// const [pathState, setPathState] = useState({ historyPath: [] });
+// useEffect(() => {
+//   const currPathHistory = () => {
+//     setCurrPath(router.asPath);
+//   };
+//   const pathHistory = () => {
+//     currPathHistory();
+//     setPathState({});
+//   };
+// }, [router]);
+// const historyPath = () => {
+//   const { asPath } = router;
+//   // setHistory(asPath);
+//   // setHistoryState((history) => ({
+//   //   historyData: history,
+//   // }));
+// };

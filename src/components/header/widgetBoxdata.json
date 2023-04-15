@@ -1,0 +1,75 @@
+{
+    "aboutus":{
+        "title":"About Us",
+        "items":[
+            {
+                "path":"/",
+                "label":"About Startup Karnataka"
+            },
+            {
+                "path":"/",
+                "label":"Success Stories"
+            },
+            {
+                "path":"/",
+                "label":"Vision Group"
+            },
+            {
+                "path":"/",
+                "label":"FAQ's"
+            }
+        ]
+    },
+    "grievances":{
+        "title":"Grievances",
+        "items":[
+            {
+                "path":"/",
+                "label":"Raise Complaint"
+            },
+            {
+                "path":"/",
+                "label":"Status Check"
+            }
+        ]
+    },
+   
+    "policies":{
+        "title":"Policies & Schemes",
+        "items":[
+            {
+                "path":"/",
+                "label":"Startup Policy"
+            },
+            {
+                "path":"/",
+                "label":"Operational Guidelines"
+            },
+            {
+                "path":"/",
+                "label":"Self Certification"
+            },
+            {
+                "path":"/",
+                "label":"IT Policiy"
+            },
+            {
+                "path":"/",
+                "label":"ESDM Policy"
+            },
+            {
+                "path":"/",
+                "label":"See more..."
+            }
+        ]
+    },
+    "elevate":{
+        "title":"Elevate is live now !",
+        "items":[
+            {
+        "path":"/",
+        "label":"Apply"
+            }
+        ]
+    }
+}

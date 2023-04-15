@@ -1,0 +1,27 @@
+.cool-area.grassroot .single-cool {
+  height: 221px;
+  &.color4 {
+    margin-top: 36px;
+  }
+}
+.flip-content.grassroot {
+  width: 74%;
+  margin-bottom: 10px;
+}
+.flip-area.grassroot {
+  background-size: inherit !important;
+  background-position: right !important;
+  margin-top: -3rem;
+  .flip-content.grassroot h2 {
+    color: #120f2c;
+  }
+  .flip-menu.grassroot li {
+    color: #120f2c !important;
+    &::before {
+      background: #120f2c !important;
+    }
+    a {
+      color: #120f2c !important;
+    }
+  }
+}

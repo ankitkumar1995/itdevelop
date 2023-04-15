@@ -1,0 +1,787 @@
+{
+  "startup": [
+    {
+      "title": "Type",
+      "key": "Type",
+      "options": [
+        {
+          "key": "product",
+          "value": "Product"
+        },
+        {
+          "key": "service",
+          "value": "Service"
+        },
+        {
+          "Key": "Both",
+          "value": "Both"
+        }
+      ]
+    },
+    {
+      "title": "Entity",
+      "key": "Entity",
+      "options": [
+        {
+          "key": "Private Limited Company (PVT)",
+          "value": "Private Limited Company (PVT)"
+        },
+        {
+          "key": "One Person Company (OPC)",
+          "value": "One Person Company (OPC)"
+        },
+        {
+          "key": "Limited Liability Partnership (LLP)",
+          "value": "Limited Liability Partnership (LLP)"
+        },
+        {
+          "key": "Partnership Firm",
+          "value": "Partnership Firm"
+        }
+      ]
+    },
+    {
+      "title": "Stage",
+      "key": "stage",
+      "options": [
+        {
+          "key": "Ideation",
+          "value": " Ideation"
+        },
+        {
+          "key": "Validation",
+          "value": "validation"
+        },
+        {
+          "key": "Early transaction",
+          "value": "early transaction"
+        },
+        {
+          "key": "Scaling",
+          "value": "scaling"
+        }
+      ]
+    },
+    {
+      "title": "Location",
+      "key": "Location",
+      "search": true,
+      "options": [
+        {
+          "key": "Bengaluru",
+          "value": "Bengaluru"
+        },
+        {
+          "key": "Mysore",
+          "value": "Mysore"
+        },
+        {
+          "key": "Mangalore",
+          "value": "Mangalore"
+        },
+        {
+          "key": "Bellary",
+          "value": "Bellary"
+        },
+        {
+          "key": "Hassan",
+          "value": "Hassan"
+        }
+      ]
+    },
+    {
+      "title": "Industry",
+      "key": "industry",
+      "search": true,
+      "options": [
+        { "key": "Aerospace", "value": "Aerospace" },
+        { "key": "Agriculture", "value": "Agriculture" },
+        {
+          "key": "Automotive(Fuel Based & EV)",
+          "value": "Automotive(Fuel Based & EV)"
+        },
+        {
+          "key": "Animation,Visual Effects,Gaming & Comics (AVGC)",
+          "value": "Animation,Visual Effects,Gaming & Comics (AVGC)"
+        },
+        { "key": "Banking & Finance", "value": "Banking & Finance" },
+        { "key": "Biotechnology", "value": "Biotechnology" },
+        { "key": "Clean-Tech", "value": "Clean-Tech" },
+        { "key": "Coal", "value": "Coal" },
+        {
+          "key": "Construction & Furniture",
+          "value": "Construction & Furniture"
+        },
+        {
+          "key": "Consulting & Operations",
+          "value": "Consulting & Operations"
+        },
+        { "key": "Consumer Electronics", "value": "Consumer Electronics" },
+        { "key": "Ed-Tech", "value": "Ed-Tech" },
+
+        { "key": "Education", "value": "Education" },
+
+        {
+          "key": "Electronics, System Design & Manufacturing (ESDM)",
+          "value": "Electronics, System Design & Manufacturing (ESDM)"
+        },
+
+        { "key": "Fashion & Apparel", "value": "Fashion & Apparel" },
+
+        {
+          "key": "Food & Beverages/ Food Processing",
+          "value": "Food & Beverages/ Food Processing"
+        },
+        { "key": "Healthcare", "value": "Healthcare" },
+        { "key": "Human Resources", "value": "Human Resources" },
+        {
+          "key": "Industrial Machinery & Manufacturing",
+          "value": "Industrial Machinery & Manufacturing"
+        },
+        { "key": "IT/ ITES", "value": "IT/ ITES" },
+        { "key": "Jewellery", "value": "Jewellery" },
+        { "key": "Kannada & Culture", "value": "Kannada & Culture" },
+        { "key": "Legal/ Law", "value": "Legal/ Law" },
+        { "key": "Lifesciences", "value": "Lifesciences" },
+        { "key": "Marketing", "value": "Marketing" },
+        { "key": "Media & Advertising", "value": "Media & Advertising" },
+        { "key": "Med-Tech", "value": "Med-Tech" },
+        { "key": "Metallurgy", "value": "Metallurgy" },
+        { "key": "Mining", "value": "Mining" },
+        { "key": "Petroleum", "value": "Petroleum" },
+        { "key": "Pharma", "value": "Pharma" },
+        { "key": "Railways", "value": "Railways" },
+        { "key": "Shipping", "value": "Shipping" },
+        { "key": "Smart-City", "value": "Smart-City" },
+        { "key": "Telecommunications", "value": "Telecommunications" },
+        { "key": "Textiles", "value": "Textiles" },
+        { "key": "Tourism", "value": "Tourism" },
+        { "key": "Transportation", "value": "Transportation" },
+        { "key": "veterinary", "value": "veterinary" },
+        { "key": "wellness", "value": "wellness" }
+      ]
+    }
+  ],
+  "investor": [
+    {
+      "title": "Type",
+      "key": "type",
+      "options": [
+        {
+          "key": "Friends & Family",
+          "value": "Friends & Family"
+        },
+        {
+          "key": "Banks & Government Agencies",
+          "value": "Banks & Government Agencies"
+        },
+        {
+          "key": "Angel Investors",
+          "value": "Angel Investors"
+        },
+        {
+          "key": "Angel Groups",
+          "value": "Angel Groups"
+        },
+        {
+          "key": " Accelerators & Incubators",
+          "value": " Accelerators & Incubators"
+        },
+        {
+          "key": "Family Offices",
+          "value": "Family Offices"
+        },
+        {
+          "key": "Venture Capital Firms",
+          "value": "Venture Capital Firms"
+        },
+        {
+          "key": "Corporate Investors",
+          "value": "Corporate Investors"
+        }
+      ]
+    },
+    {
+      "title": "Industry",
+      "key": "industry",
+      "search": true,
+      "options": [
+        { "key": "Aerospace", "value": "Aerospace" },
+        { "key": "Agriculture", "value": "Agriculture" },
+        {
+          "key": "Automotive(Fuel Based & EV)",
+          "value": "Automotive(Fuel Based & EV)"
+        },
+        {
+          "key": "Animation,Visual Effects,Gaming & Comics (AVGC)",
+          "value": "Animation,Visual Effects,Gaming & Comics (AVGC)"
+        },
+        { "key": "Banking & Finance", "value": "Banking & Finance" },
+        { "key": "Biotechnology", "value": "Biotechnology" },
+        { "key": "Clean-Tech", "value": "Clean-Tech" },
+        { "key": "Coal", "value": "Coal" },
+        {
+          "key": "Construction & Furniture",
+          "value": "Construction & Furniture"
+        },
+        {
+          "key": "Consulting & Operations",
+          "value": "Consulting & Operations"
+        },
+        { "key": "Consumer Electronics", "value": "Consumer Electronics" },
+        { "key": "Ed-Tech", "value": "Ed-Tech" },
+
+        { "key": "Education", "value": "Education" },
+
+        {
+          "key": "Electronics, System Design & Manufacturing (ESDM)",
+          "value": "Electronics, System Design & Manufacturing (ESDM)"
+        },
+
+        { "key": "Fashion & Apparel", "value": "Fashion & Apparel" },
+
+        {
+          "key": "Food & Beverages/ Food Processing",
+          "value": "Food & Beverages/ Food Processing"
+        },
+        { "key": "Healthcare", "value": "Healthcare" },
+        { "key": "Human Resources", "value": "Human Resources" },
+        {
+          "key": "Industrial Machinery & Manufacturing",
+          "value": "Industrial Machinery & Manufacturing"
+        },
+        { "key": "IT/ ITES", "value": "IT/ ITES" },
+        { "key": "Jewellery", "value": "Jewellery" },
+        { "key": "Kannada & Culture", "value": "Kannada & Culture" },
+        { "key": "Legal/ Law", "value": "Legal/ Law" },
+        { "key": "Lifesciences", "value": "Lifesciences" },
+        { "key": "Marketing", "value": "Marketing" },
+        { "key": "Media & Advertising", "value": "Media & Advertising" },
+        { "key": "Med-Tech", "value": "Med-Tech" },
+        { "key": "Metallurgy", "value": "Metallurgy" },
+        { "key": "Mining", "value": "Mining" },
+        { "key": "Petroleum", "value": "Petroleum" },
+        { "key": "Pharma", "value": "Pharma" },
+        { "key": "Railways", "value": "Railways" },
+        { "key": "Shipping", "value": "Shipping" },
+        { "key": "Smart-City", "value": "Smart-City" },
+        { "key": "Telecommunications", "value": "Telecommunications" },
+        { "key": "Textiles", "value": "Textiles" },
+        { "key": "Tourism", "value": "Tourism" },
+        { "key": "Transportation", "value": "Transportation" },
+        { "key": "veterinary", "value": "veterinary" },
+        { "key": "wellness", "value": "wellness" }
+      ]
+    },
+    {
+      "title": "Investment Range",
+      "key": "investment_range",
+      "options": [
+        {
+          "key": "0 - 10 Lakhs",
+          "value": "0 - 10 Lakhs"
+        },
+        {
+          "key": "10 - 25 Lakhs",
+          "value": "10 - 25 Lakhs"
+        },
+        {
+          "key": "25 - 50 Lakhs",
+          "value": "25 - 50 Lakhs"
+        },
+        {
+          "key": "50 Lakhs - 1 Crore",
+          "value": "50 Lakhs - 1 Crore"
+        },
+        {
+          "key": "Above 1 Crore",
+          "value": "Above 1 Crore"
+        }
+      ]
+    },
+    {
+      "title": "Location",
+      "key": "Location",
+      "search": true,
+      "options": [
+        { "key": "Bagalkote", "value": "bagalkote" },
+        { "key": "Belagavi", "value": "belagavi" },
+        { "key": "Bellary", "value": "bellary" },
+        { "key": "Bengaluru Rural", "value": "bengaluruRural" },
+        { "key": "Bengaluru Urban", "value": "bengaluruUrban" },
+        { "key": "Bidar", "value": "bidar" },
+        { "key": "Chamarajanagar", "value": "chamarajanagar" },
+        { "key": "Chikkaballapur", "value": "chikkaballapur" },
+        { "key": "Chikmagalur", "value": "chikmagalur" },
+        { "key": "Chitradurga", "value": "chitradurga" },
+        { "key": "Dakshina Kannada", "value": "dakshinaKannada" },
+        { "key": "Davanagere", "value": "davanagere" },
+        { "key": "Dharwad", "value": "dharwad" },
+        { "key": "Gadag", "value": "gadag" },
+        { "key": "Hassan", "value": "hassan" },
+        { "key": "Haveri", "value": "haveri" },
+        { "key": "Kalburgi", "value": "kalburgi" },
+        { "key": "Kodagu", "value": "kodagu" },
+        { "key": "Kolar", "value": "kolar" },
+        { "key": "Koppala", "value": "koppala" },
+        { "key": "Mandya", "value": "mandya" },
+        { "key": "Mysuru", "value": "mysuru" },
+        { "key": "Raichur", "value": "raichur" },
+        { "key": "Ramanagara", "value": "ramanagara" },
+        { "key": "Shimoga", "value": "shimoga" },
+        { "key": "Tumkur", "value": "tumkur" },
+        { "key": "Udupi", "value": "udupi" },
+        { "key": "Uttara Kannada", "value": "uttaraKannada" },
+        { "key": "Vijayanagara", "value": "vijayanagara" },
+        { "key": "Vijayapura", "value": "vijayapura" },
+        { "key": "Yadagiri", "value": "yadagiri" }
+      ]
+    }
+  ],
+  "incubator": [
+    {
+      "title": "Type",
+      "key": "type",
+      "search": true,
+      "options": [
+        {
+          "key": "Business Incubation",
+          "value": "Business Incubation"
+        },
+        {
+          "key": "Virtual Incubation",
+          "value": "Virtual Incubation"
+        },
+        {
+          "key": "Technology Business Incubator (TBI)",
+          "value": "Technology Business Incubator (TBI)"
+        },
+        {
+          "key": "New Age Innovation Network (NAIN)",
+          "value": "New Age Innovation Network (NAIN)"
+        },
+        {
+          "key": "Common Instrumentation Facility (CIF)",
+          "value": "Common Instrumentation Facility (CIF)"
+        },
+        {
+          "key": "Centre of Excellence (CoE)",
+          "value": "Centre of Excellence (CoE)"
+        },
+        {
+          "key": "Co-working Space",
+          "value": "Co-working Space"
+        }
+      ]
+    },
+    {
+      "title": "Location",
+      "key": "Location",
+      "search": true,
+      "options": [
+        { "key": "Bagalkote", "value": "bagalkote" },
+        { "key": "Belagavi", "value": "belagavi" },
+        { "key": "Bellary", "value": "bellary" },
+        { "key": "Bengaluru Rural", "value": "bengaluruRural" },
+        { "key": "Bengaluru Urban", "value": "bengaluruUrban" },
+        { "key": "Bidar", "value": "bidar" },
+        { "key": "Chamarajanagar", "value": "chamarajanagar" },
+        { "key": "Chikkaballapur", "value": "chikkaballapur" },
+        { "key": "Chikmagalur", "value": "chikmagalur" },
+        { "key": "Chitradurga", "value": "chitradurga" },
+        { "key": "Dakshina Kannada", "value": "dakshinaKannada" },
+        { "key": "Davanagere", "value": "davanagere" },
+        { "key": "Dharwad", "value": "dharwad" },
+        { "key": "Gadag", "value": "gadag" },
+        { "key": "Hassan", "value": "hassan" },
+        { "key": "Haveri", "value": "haveri" },
+        { "key": "Kalburgi", "value": "kalburgi" },
+        { "key": "Kodagu", "value": "kodagu" },
+        { "key": "Kolar", "value": "kolar" },
+        { "key": "Koppala", "value": "koppala" },
+        { "key": "Mandya", "value": "mandya" },
+        { "key": "Mysuru", "value": "mysuru" },
+        { "key": "Raichur", "value": "raichur" },
+        { "key": "Ramanagara", "value": "ramanagara" },
+        { "key": "Shimoga", "value": "shimoga" },
+        { "key": "Tumkur", "value": "tumkur" },
+        { "key": "Udupi", "value": "udupi" },
+        { "key": "Uttara Kannada", "value": "uttaraKannada" },
+        { "key": "Vijayanagara", "value": "vijayanagara" },
+        { "key": "Vijayapura", "value": "vijayapura" },
+        { "key": "Yadagiri", "value": "yadagiri" }
+      ]
+    }
+  ],
+  "mentor": [
+    {
+      "title": "Industry",
+      "key": "industry",
+      "search": true,
+      "options": [
+        { "key": "Aerospace", "value": "Aerospace" },
+        { "key": "Agriculture", "value": "Agriculture" },
+        {
+          "key": "Automotive(Fuel Based & EV)",
+          "value": "Automotive(Fuel Based & EV)"
+        },
+        {
+          "key": "Animation,Visual Effects,Gaming & Comics (AVGC)",
+          "value": "Animation,Visual Effects,Gaming & Comics (AVGC)"
+        },
+        { "key": "Banking & Finance", "value": "Banking & Finance" },
+        { "key": "Biotechnology", "value": "Biotechnology" },
+        { "key": "Clean-Tech", "value": "Clean-Tech" },
+        { "key": "Coal", "value": "Coal" },
+        {
+          "key": "Construction & Furniture",
+          "value": "Construction & Furniture"
+        },
+        {
+          "key": "Consulting & Operations",
+          "value": "Consulting & Operations"
+        },
+        { "key": "Consumer Electronics", "value": "Consumer Electronics" },
+        { "key": "Ed-Tech", "value": "Ed-Tech" },
+
+        { "key": "Education", "value": "Education" },
+
+        {
+          "key": "Electronics, System Design & Manufacturing (ESDM)",
+          "value": "Electronics, System Design & Manufacturing (ESDM)"
+        },
+
+        { "key": "Fashion & Apparel", "value": "Fashion & Apparel" },
+
+        {
+          "key": "Food & Beverages/ Food Processing",
+          "value": "Food & Beverages/ Food Processing"
+        },
+        { "key": "Healthcare", "value": "Healthcare" },
+        { "key": "Human Resources", "value": "Human Resources" },
+        {
+          "key": "Industrial Machinery & Manufacturing",
+          "value": "Industrial Machinery & Manufacturing"
+        },
+        { "key": "IT/ ITES", "value": "IT/ ITES" },
+        { "key": "Jewellery", "value": "Jewellery" },
+        { "key": "Kannada & Culture", "value": "Kannada & Culture" },
+        { "key": "Legal/ Law", "value": "Legal/ Law" },
+        { "key": "Lifesciences", "value": "Lifesciences" },
+        { "key": "Marketing", "value": "Marketing" },
+        { "key": "Media & Advertising", "value": "Media & Advertising" },
+        { "key": "Med-Tech", "value": "Med-Tech" },
+        { "key": "Metallurgy", "value": "Metallurgy" },
+        { "key": "Mining", "value": "Mining" },
+        { "key": "Petroleum", "value": "Petroleum" },
+        { "key": "Pharma", "value": "Pharma" },
+        { "key": "Railways", "value": "Railways" },
+        { "key": "Shipping", "value": "Shipping" },
+        { "key": "Smart-City", "value": "Smart-City" },
+        { "key": "Telecommunications", "value": "Telecommunications" },
+        { "key": "Textiles", "value": "Textiles" },
+        { "key": "Tourism", "value": "Tourism" },
+        { "key": "Transportation", "value": "Transportation" },
+        { "key": "veterinary", "value": "veterinary" },
+        { "key": "wellness", "value": "wellness" }
+      ]
+    },
+    {
+      "title": "Specialization",
+      "key": "specialization",
+      "options": [
+        {
+          "key": "sales",
+          "value": "Sales"
+        },
+        {
+          "key": "operations",
+          "value": "Operations"
+        },
+        {
+          "key": "strategy",
+          "value": "Strategy"
+        },
+        {
+          "key": "product",
+          "value": "Product"
+        }
+      ]
+    },
+    {
+      "title": "Location",
+      "key": "location",
+      "search": true,
+      "options": [
+        {
+          "key": "Andaman and Nicobar Islands",
+          "value": "Andaman and Nicobar Islands"
+        },
+        {
+          "key": "Andhra Pradesh",
+          "value": "Andhra Pradesh"
+        },
+        {
+          "key": "Arunachal Pradesh",
+          "value": "Arunachal Pradesh"
+        },
+        {
+          "key": "Assam",
+          "value": "Assam"
+        },
+        {
+          "key": "Bihar",
+          "value": "Bihar"
+        },
+        {
+          "key": "Chandigarh",
+          "value": "Chandigarh"
+        },
+        {
+          "key": "Chhattisgarh",
+          "value": "Chhattisgarh"
+        },
+        {
+          "key": "Dadra and Nagar Haveli",
+          "value": "Dadra and Nagar Haveli"
+        },
+        {
+          "key": "Daman and Diu",
+          "value": "Daman and Diu"
+        },
+        {
+          "key": "Delhi",
+          "value": "Delhi"
+        },
+        {
+          "key": "Goa",
+          "value": "Goa"
+        },
+        {
+          "key": "Gujarat",
+          "value": "Gujarat"
+        },
+        {
+          "key": "Haryana",
+          "value": "Haryana"
+        },
+        {
+          "key": "Himachal Pradesh",
+          "value": "Himachal Pradesh"
+        },
+        {
+          "key": "Jammu and Kashmir",
+          "value": "Jammu and Kashmir"
+        },
+        {
+          "key": "Jharkhand",
+          "value": "Jharkhand"
+        },
+        {
+          "key": "Karnataka",
+          "value": "Karnataka"
+        },
+        {
+          "key": "Kerala",
+          "value": "Kerala"
+        },
+        {
+          "key": "Ladakh",
+          "value": "Ladakh"
+        },
+
+        { "key": "Lakshadweep", "value": "Lakshadweep" },
+        { "key": "Madhya Pradesh", "value": "Madhya Pradesh" },
+        {
+          "key": "Maharashtra",
+          "value": "Maharashtra"
+        },
+        {
+          "key": "Manipur",
+          "value": "Manipur"
+        },
+        {
+          "key": "Meghalaya",
+          "value": "Meghalaya"
+        },
+        {
+          "key": "Mizoram",
+          "value": "Mizoram"
+        },
+        {
+          "key": "Nagaland",
+          "value": "Nagaland"
+        },
+        {
+          "key": "Odisha",
+          "value": "Odisha"
+        },
+        {
+          "key": "Puducherry",
+          "value": "Puducherry"
+        },
+        { "key": "Punjab", "value": "Punjab" },
+        { "key": "Rajasthan", "value": "Rajasthan" },
+        { "key": "Sikkim", "value": "Sikkim" },
+        { "key": "Tamil Nadu", "value": "Tamil Nadu" },
+        { "key": "Telangana", "value": "Telangana" },
+        { "key": "Tripura", "value": "Tripura" },
+        { "key": "Uttar Pradesh", "value": "Uttar Pradesh" },
+        { "key": "Uttarakhand", "value": "Uttarakhand" },
+        { "key": "West Bengal", "value": "West Bengal" }
+      ]
+    }
+  ],
+  "partner": [
+    {
+      "title": "Partner Type",
+      "key": "partnerType",
+      "search": true,
+      "options": [
+        {
+          "key": "General Partnership",
+          "value": "General Partnership"
+        },
+        {
+          "key": "Limited Partnership",
+          "value": "Limited Partnership"
+        },
+        {
+          "key": "Limited Liability Partnership",
+          "value": "Limited Liability Partnership"
+        },
+        {
+          "key": "Public Private Partnership",
+          "value": "Public Private Partnership"
+        },
+        {
+          "key": "Others",
+          "value": "Others"
+        }
+      ]
+    },
+    {
+      "title": "Location",
+      "key": "location",
+      "search": true,
+      "options": [
+        {
+          "key": "Andaman and Nicobar Islands",
+          "value": "Andaman and Nicobar Islands"
+        },
+        {
+          "key": "Andhra Pradesh",
+          "value": "Andhra Pradesh"
+        },
+        {
+          "key": "Arunachal Pradesh",
+          "value": "Arunachal Pradesh"
+        },
+        {
+          "key": "Assam",
+          "value": "Assam"
+        },
+        {
+          "key": "Bihar",
+          "value": "Bihar"
+        },
+        {
+          "key": "Chandigarh",
+          "value": "Chandigarh"
+        },
+        {
+          "key": "Chhattisgarh",
+          "value": "Chhattisgarh"
+        },
+        {
+          "key": "Dadra and Nagar Haveli",
+          "value": "Dadra and Nagar Haveli"
+        },
+        {
+          "key": "Daman and Diu",
+          "value": "Daman and Diu"
+        },
+        {
+          "key": "Delhi",
+          "value": "Delhi"
+        },
+        {
+          "key": "Goa",
+          "value": "Goa"
+        },
+        {
+          "key": "Gujarat",
+          "value": "Gujarat"
+        },
+        {
+          "key": "Haryana",
+          "value": "Haryana"
+        },
+        {
+          "key": "Himachal Pradesh",
+          "value": "Himachal Pradesh"
+        },
+        {
+          "key": "Jammu and Kashmir",
+          "value": "Jammu and Kashmir"
+        },
+        {
+          "key": "Jharkhand",
+          "value": "Jharkhand"
+        },
+        {
+          "key": "Karnataka",
+          "value": "Karnataka"
+        },
+        {
+          "key": "Kerala",
+          "value": "Kerala"
+        },
+        {
+          "key": "Ladakh",
+          "value": "Ladakh"
+        },
+
+        { "key": "Lakshadweep", "value": "Lakshadweep" },
+        { "key": "Madhya Pradesh", "value": "Madhya Pradesh" },
+        {
+          "key": "Maharashtra",
+          "value": "Maharashtra"
+        },
+        {
+          "key": "Manipur",
+          "value": "Manipur"
+        },
+        {
+          "key": "Meghalaya",
+          "value": "Meghalaya"
+        },
+        {
+          "key": "Mizoram",
+          "value": "Mizoram"
+        },
+        {
+          "key": "Nagaland",
+          "value": "Nagaland"
+        },
+        {
+          "key": "Odisha",
+          "value": "Odisha"
+        },
+        {
+          "key": "Puducherry",
+          "value": "Puducherry"
+        },
+        { "key": "Punjab", "value": "Punjab" },
+        { "key": "Rajasthan", "value": "Rajasthan" },
+        { "key": "Sikkim", "value": "Sikkim" },
+        { "key": "Tamil Nadu", "value": "Tamil Nadu" },
+        { "key": "Telangana", "value": "Telangana" },
+        { "key": "Tripura", "value": "Tripura" },
+        { "key": "Uttar Pradesh", "value": "Uttar Pradesh" },
+        { "key": "Uttarakhand", "value": "Uttarakhand" },
+        { "key": "West Bengal", "value": "West Bengal" }
+      ]
+    }
+  ]
+}

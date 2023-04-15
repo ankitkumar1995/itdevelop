@@ -1,0 +1,45 @@
+header {
+  position: fixed;
+  height: 70px;
+  z-index: 1024;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: 13px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.full_page_menu a {
+  text-decoration: none !important;
+}
+
+.full_page_menu.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.full_page_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  background-image: url(../../assets/img/menu_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1026;
+  overflow: auto;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  visibility: hidden;
+  opacity: 0;
+  padding-bottom: 20px;
+}
+
+.main-menu li a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=Header.css.map */

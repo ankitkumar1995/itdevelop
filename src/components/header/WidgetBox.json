@@ -1,0 +1,79 @@
+{
+  "aboutus": {
+    "title": "About Us",
+    "items": [
+      {
+        "path": "/aboutus",
+        "label": "About Startup Karnataka"
+      },
+      {
+        "path": "/success-stories",
+        "label": "Success Stories"
+      },
+      {
+        "path": "/vision-group",
+        "label": "Vision Group"
+      },
+      {
+        "path": "/faqs",
+        "label": "FAQ's"
+      }
+    ]
+  },
+  "grievances": {
+    "title": "Grievances",
+    "items": [
+      {
+        "path": "/raise-grievance",
+        "label": "Raise Complaint"
+      },
+      {
+        "path": "/check-grievance-status",
+        "label": "Status Check"
+      }
+    ]
+  },
+
+  "policies": {
+    "title": "Policies & Schemes",
+    "items": [
+      {
+        "path": "/policies",
+        "label": "Policy & Schemes"
+      },
+      {
+        "path": "/govt-orders",
+        "label": "Government Orders"
+      },
+      {
+        "path": "/emerging-tech",
+        "label": "Emerging Technologies"
+      },
+      {
+        "path": "/incentives",
+        "label": "Incentives"
+      },
+      {
+        "path": "/reports",
+        "label": "Reports"
+      }
+    ]
+  },
+  "others": {
+    "title": "Others",
+    "items": [
+      {
+        "path": "/pma",
+        "label": "Preferential Market Access"
+      },
+      {
+        "path": "/regulatory-issue-connect",
+        "label": "Regulatory Connect"
+      },
+      {
+        "path": "/grassroot-innovation",
+        "label": "Grassroot"
+      }
+    ]
+  }
+}

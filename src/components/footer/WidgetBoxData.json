@@ -1,0 +1,218 @@
+{
+  "network": {
+    "title": "Startup kit",
+    "items": [
+      {
+        "path": "/",
+        "label": "Startup Guide"
+      },
+      {
+        "path": "/",
+        "label": "Booster kit"
+      },
+      {
+        "path": "/",
+        "label": "Karnataka Startup cell"
+      },
+      {
+        "path": "/",
+        "label": "K-Tech hub"
+      },
+      {
+        "path": "/",
+        "label": "International Partners"
+      },
+      {
+        "path": "/",
+        "label": "IP Facilitation"
+      },
+      {
+        "path": "/",
+        "label": "Academia"
+      },
+      {
+        "path": "/",
+        "label": "FAQ’s"
+      }
+    ]
+  },
+  "grievances": {
+    "title": "Grievances",
+    "items": [
+      {
+        "path": "/",
+        "label": "Raise Complaint"
+      },
+      {
+        "path": "/",
+        "label": "Status check"
+      }
+    ]
+  },
+  "networks": {
+    "title": "Network",
+    "items": [
+      {
+        "path": "/",
+        "label": "Startups"
+      },
+      {
+        "path": "/",
+        "label": "Mentors"
+      },
+      {
+        "path": "/",
+        "label": "Incubators"
+      },
+      {
+        "path": "/",
+        "label": "Investors"
+      }
+    ]
+  },
+  "resources": {
+    "title": "Resources",
+    "items": [
+      {
+        "path": "/",
+        "label": "News"
+      },
+      {
+        "path": "/",
+        "label": "Events"
+      },
+
+      {
+        "path": "/",
+        "label": "Gallery"
+      }
+    ]
+  },
+  "policies": {
+    "title": "Policies & Schemes",
+    "items": [
+      {
+        "path": "/",
+        "label": "Policies & Schemes"
+      },
+      {
+        "path": "/",
+        "label": "Government Orders"
+      },
+      {
+        "path": "/",
+        "label": "Emerging Tech"
+      },
+      {
+        "path": "/",
+        "label": "Incentives"
+      },
+      {
+        "path": "/",
+        "label": "Reports"
+      }
+    ]
+  },
+  "funding": {
+    "title": "Funding & Programs",
+    "items": [
+      {
+        "path": "/",
+        "label": "Idea2Poc(ELEVATE)"
+      },
+      {
+        "path": "/",
+        "label": "Elevate Unnati"
+      },
+      {
+        "path": "/",
+        "label": "Grand Challenge"
+      },
+      {
+        "path": "/",
+        "label": "Tourism Challenge"
+      },
+      {
+        "path": "/",
+        "label": "COVID-19 Challenge"
+      }
+    ]
+  },
+  "aboutus": {
+    "title": "About us",
+    "items": [
+      {
+        "path": "/",
+        "label": "About Startup Karnataka"
+      },
+      {
+        "path": "/",
+        "label": "Success Stories"
+      },
+      {
+        "path": "/",
+        "label": "Vision Group"
+      },
+      {
+        "path": "/",
+        "label": "FAQ’s"
+      }
+    ]
+  },
+  "headOffice": {
+    "title": "Head office",
+    "items": [
+      {
+        "path": "/",
+        "label": "BMTC – Central Offices Building,"
+      },
+      {
+        "path": "/",
+        "label": "TTMC ‘B’ Block, 4th Floor,"
+      },
+      {
+        "path": "/",
+        "label": "Shanthinagar,KH Road,"
+      },
+      {
+        "path": "/",
+        "label": "Bengaluru 560 027"
+      }
+    ]
+  },
+  "emailUs": {
+    "title": "Email us",
+    "items": [
+      {
+        "path": "/",
+        "label": "startupcell@karnataka.gov.in"
+      }
+    ]
+  },
+  "connect": {
+    "title": "Help Line",
+    "items": [
+      {
+        "path": "/",
+        "label": "080-22632626 , +91-80-22231007"
+      }
+    ]
+  },
+  "timings": {
+    "title": "Timings",
+    "items": [
+      {
+        "path": "/",
+        "label": "Mon to Sat - 10:30 AM to 5:30 PM"
+      },
+      {
+        "path": "/",
+        "label": "Closed - 2nd & 4th Sat/Sun & "
+      },
+      {
+        "path": "/",
+        "label": "Govt. Holidays"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+.MuiFormControl-root.MuiTextField-root.space__text {
+  label > div {
+    line-height: 19px !important;
+  }
+}
+.MuiFormControl-root.MuiTextField-root.space__text.character {
+  label > div {
+    line-height: 19px !important;
+  }
+  textarea {
+    height: 100px !important;
+  }
+}
+.MuiFormControl-root.MuiTextField-root.space__text.incentive.org.MuiFormControl-fullWidth
+  .MuiFilledInput-input {
+  margin-top: 14px;
+}
+.MuiFormControl-root.MuiTextField-root.space__text.incentive.assit.MuiFormControl-fullWidth
+  .MuiFilledInput-input {
+  margin-top: 14px;
+}

@@ -1,0 +1,721 @@
+$phone: 600px;
+$custom: 767px;
+$tablet: 920px;
+$desktop: 1200px;
+
+.edit-profile-page {
+  .profile-details {
+    padding: 140px 40px 70px 40px;
+    display: flex;
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(31, 60, 136, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(31, 60, 136, 1) 100%
+    );
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(31, 60, 136, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#1f3c88",GradientType=1);
+    & > div {
+      padding: 30px 0px 10px 0px;
+    }
+    .profile-avatar {
+      width: 15%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      .avatar-image {
+        height: 122px;
+        max-height: 122px;
+        width: 122px;
+        max-width: 122px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom: 25px;
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .profile-edit-button {
+        max-width: 122px;
+        width: 122px;
+        button {
+          width: 100%;
+          padding: 10px 0px;
+          border-radius: 5px;
+          background-color: #ee6f57;
+          border: none;
+          outline: none;
+          color: #ffffff;
+          font-family: 'Manrope', sans-serif;
+          font-size: 14px;
+          font-weight: 600;
+          letter-spacing: 0.5px;
+          line-height: 19px;
+        }
+      }
+    }
+    .profile-information {
+      width: 85%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 17px;
+      .profile-name-intro {
+        color: #fff;
+        p {
+          margin: 0;
+        }
+        .profile-name {
+          font-family: 'Manrope', sans-serif;
+          font-size: 45px;
+          font-weight: bold;
+          letter-spacing: 0.5px;
+          line-height: 62px;
+          margin-bottom: 10px;
+        }
+        .profile-intro {
+          font-size: 18px;
+          font-weight: 600;
+          letter-spacing: 0.5px;
+          line-height: 28px;
+          font-family: 'Manrope', sans-serif;
+          margin-bottom: 10px;
+          max-width: 70%;
+        }
+      }
+      .profile-links {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        .profile-social-links,
+        .profile-elevate-links {
+          display: flex;
+          color: #fff;
+        }
+        .profile-single-link {
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 2px solid #fff;
+          padding: 10px;
+          border-radius: 50%;
+          margin-right: 20px;
+          cursor: pointer;
+          &.pitch-section {
+            border: none !important;
+            border-radius: 0% !important;
+            padding: 10px 10px 10px 0px !important;
+          }
+          &.fb-icon {
+            padding: 10.5px 13px 10.5px 14px !important;
+          }
+          p {
+            margin: 0px 20px 0px 15px;
+            font-family: 'Manrope', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            line-height: 19px;
+          }
+          i {
+            font-size: 15px;
+          }
+          i.video-icon {
+            font-size: 26px;
+          }
+        }
+      }
+    }
+  }
+  .profile-extra-details {
+    background: #e2e4e8;
+    padding: 50px 70px;
+    .profile-details-card {
+      background-color: #fff;
+      padding: 30px;
+      font-family: 'Manrope', sans-serif;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      .details-card-header {
+        margin-bottom: 20px;
+        h1 {
+          margin-bottom: 0px;
+          color: #1d293f;
+          font-family: 'Manrope', sans-serif;
+          font-size: 24px;
+          font-weight: 600;
+          letter-spacing: 0.5px;
+          line-height: 33px;
+          display: flex;
+          align-items: center;
+          margin: 0;
+          justify-content: space-between;
+          button {
+            background-color: #f8f8fc;
+            background: #f8f8fc;
+            padding: 15px;
+            border: none;
+            outline: none;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            svg {
+              color: #1f3c88;
+            }
+          }
+        }
+      }
+      .details-card-body {
+        .details-item {
+          margin-bottom: 25px;
+          h4 {
+            margin-bottom: 6px;
+            color: #1d293f;
+            font-family: 'Manrope', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            line-height: 19px;
+          }
+          p {
+            color: #58566b;
+            font-family: 'Manrope', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            line-height: 22px;
+          }
+        }
+        p {
+          color: #58566b;
+          font-family: 'Manrope', sans-serif;
+          font-size: 16px;
+          letter-spacing: 0.5px;
+          line-height: 22px;
+          margin: 0;
+        }
+        .details-list-item {
+          color: #58566b;
+          font-family: 'Manrope', sans-serif;
+          font-size: 16px;
+          letter-spacing: 0;
+          line-height: 28px;
+          margin-bottom: 36px;
+          display: flex;
+          align-items: flex-start;
+          .list-item-icon {
+            color: #1f3c88;
+            margin-right: 15px;
+          }
+        }
+        .profile-progress-outer {
+          position: relative;
+          height: 10px;
+          border-radius: 5px;
+          background-color: #e2e4e8;
+          margin-bottom: 30px;
+          overflow: hidden;
+          .profile-progress-inner {
+            position: absolute;
+            transition: all 0.5s ease;
+            top: 0;
+            left: 0;
+            height: 100%;
+            border-radius: 5px;
+            background: linear-gradient(90deg, #ee6f57 0%, #f52a04 100%);
+          }
+        }
+        .profile-progress-text {
+          color: #1d293f;
+          font-family: 'Manrope', sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 0.5px;
+          line-height: 19px;
+          .progress-link {
+            color: #ee6f57;
+          }
+        }
+        .download-wrapper {
+          padding: 50px 35px;
+          .download-content {
+            padding: 30px 35px;
+            border-radius: 10px;
+            background-color: #120f2d;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            img {
+              height: 110px;
+              width: 110px;
+              margin-bottom: 20px;
+            }
+            p {
+              color: #ffffff;
+              font-family: 'Manrope', sans-serif;
+              font-size: 22px;
+              letter-spacing: 0.5px;
+              line-height: 30px;
+              text-align: center;
+              margin-bottom: 25px;
+            }
+            button {
+              border-radius: 5px;
+              background: linear-gradient(270deg, #f52a04 0%, #ee6f57 100%);
+              padding: 15px 0px;
+              color: #ffffff;
+              font-family: 'Manrope', sans-serif;
+              font-size: 14px;
+              letter-spacing: 0.5px;
+              line-height: 17px;
+              text-align: center;
+              border: none;
+              outline: none;
+              width: 100%;
+            }
+          }
+        }
+        .founders-slider {
+          display: flex;
+          // align-items: center;
+          .single-founder-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .founder-avatar {
+              margin-bottom: 20px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              img {
+                height: 124px;
+                width: 124px;
+                max-width: 124px;
+                max-height: 124px;
+                border-radius: 50%;
+              }
+            }
+            .founder-name {
+              color: #120f2d;
+              font-family: 'Manrope', sans-serif;
+              font-size: 16px;
+              letter-spacing: 0.5px;
+              line-height: 18px;
+              text-align: center;
+              margin-bottom: 15px;
+              font-weight: 600;
+            }
+            .founder-designation {
+              color: #1f3c88;
+              font-family: 'Manrope', sans-serif;
+              font-size: 14px;
+              letter-spacing: 0.54px;
+              line-height: 17px;
+              text-align: center;
+              margin-bottom: 28px;
+              font-weight: 600;
+            }
+            .founder-social {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              a {
+                background-color: #1f3c88;
+                padding: 5px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &:first-child {
+                  margin-right: 16px;
+                }
+                i {
+                  color: #fff;
+                }
+              }
+            }
+          }
+          .slick-dots {
+            display: none !important;
+          }
+          .slider-rev {
+            // background-color: red;
+            height: auto;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+          }
+        }
+        .profile-body-extra {
+          margin-top: 40px;
+          h3 {
+            color: #1d293f;
+            font-family: 'Manrope', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            line-height: 24px;
+            margin-bottom: 20px;
+          }
+          .industry-tech-slider {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .slick-slide {
+              padding: 0px 10px;
+            }
+            .slick-list {
+              width: 100%;
+              .slick-track {
+                display: flex;
+                align-items: center;
+              }
+            }
+            .owl-stage-outer {
+              .owl-stage {
+                display: flex;
+                align-items: center;
+              }
+            }
+            .single-slider-item {
+              border-radius: 20px;
+              background-color: #070d59;
+              padding: 13px 30px;
+              margin-right: 10px;
+              p {
+                color: #ffffff;
+                font-family: 'Manrope', sans-serif;
+                font-size: 14px;
+                letter-spacing: 0;
+                line-height: 14px;
+                margin-bottom: 0px;
+                text-align: center;
+              }
+            }
+          }
+        }
+        .profile-card-image-gallery {
+          display: flex;
+          flex-wrap: wrap;
+          .gallery-image {
+            height: 146px;
+            width: 146px;
+            margin: 0px 28px 30px 0px;
+            border-radius: 10px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        }
+      }
+    }
+    .extra-details-container {
+      .change-password-btn {
+        background-color: transparent;
+        background: transparent;
+        border: none;
+        outline: none;
+        margin-bottom: 30px;
+        color: #ee6f57;
+        font-family: 'Manrope', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        line-height: 27px;
+        padding-left: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  .edit-profile-page {
+    .profile-details {
+      background: rgb(0, 0, 0);
+      background: -moz-linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 1) 20%,
+        rgba(31, 60, 136, 1) 100%
+      );
+      background: -webkit-linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 1) 20%,
+        rgba(31, 60, 136, 1) 100%
+      );
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 1) 20%,
+        rgba(31, 60, 136, 1) 100%
+      );
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#1f3c88",GradientType=1);
+      .profile-avatar {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .profile-information {
+        width: 80%;
+      }
+    }
+    .profile-extra-details {
+      .profile-details-card {
+        .details-card-body {
+          .download-wrapper {
+            padding: 0px;
+            .download-content {
+              padding: 15px 20px;
+              img {
+                display: none;
+              }
+              p {
+                font-size: 16px;
+                line-height: 26px;
+                margin-bottom: 15px;
+              }
+              button {
+                padding: 10px 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $phone) {
+  .edit-profile-page {
+    .profile-details {
+      flex-direction: column;
+      .profile-avatar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        .avatar-image {
+          height: 122px;
+          max-height: 122px;
+          width: 122px;
+          max-width: 122px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin-bottom: 25px;
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+        .profile-edit-button {
+          max-width: 122px;
+          width: 122px;
+          button {
+            width: 100%;
+            padding: 10px 0px;
+            border-radius: 5px;
+            background-color: #ee6f57;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-family: 'Manrope', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            line-height: 19px;
+          }
+        }
+      }
+      .profile-information {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+        .profile-name-intro {
+          p {
+            margin: 0;
+            text-align: center;
+          }
+          .profile-name {
+            font-family: 'Manrope', sans-serif;
+            font-size: 45px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            line-height: 62px;
+            margin-bottom: 10px;
+          }
+          .profile-intro {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            line-height: 28px;
+            font-family: 'Manrope', sans-serif;
+            margin-bottom: 10px;
+            max-width: 100%;
+          }
+        }
+        .profile-links {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .profile-elevate-links {
+            justify-content: center;
+          }
+          .profile-social-links {
+            margin-top: 20px;
+          }
+          .profile-single-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #fff;
+            padding: 10px;
+            border-radius: 50%;
+            margin-right: 20px;
+            &.pitch-section {
+              border: none !important;
+              border-radius: 0% !important;
+              padding: 10px 10px 10px 0px !important;
+              margin: 0px !important;
+            }
+            &.fb-icon {
+              padding: 10.5px 13px 10.5px 14px !important;
+            }
+            p {
+              margin: 0px 20px 0px 15px;
+              font-family: 'Manrope', sans-serif;
+              font-size: 14px;
+              font-weight: 600;
+              letter-spacing: 0.5px;
+              line-height: 19px;
+            }
+            i {
+              font-size: 15px;
+            }
+            i.video-icon {
+              font-size: 26px;
+            }
+          }
+        }
+      }
+    }
+    .profile-extra-details {
+      padding: 40px 30px;
+      .profile-details-card {
+        .details-card-header {
+          h1 {
+            font-size: 20px;
+            line-height: 28px;
+            align-items: center;
+            button {
+              padding: 10px;
+              svg {
+                height: 18px;
+                width: 18px;
+              }
+            }
+          }
+        }
+        .details-card-body {
+          p {
+            font-size: 14px;
+          }
+          .download-wrapper {
+            padding: 0px;
+            .download-content {
+              padding: 15px 20px;
+              img {
+                display: none;
+              }
+              p {
+                font-size: 16px;
+                line-height: 26px;
+                margin-bottom: 15px;
+              }
+              button {
+                padding: 10px 0px;
+              }
+            }
+          }
+          .profile-card-image-gallery {
+            .gallery-image {
+              height: 80px;
+              width: 80px;
+              margin: 0px 15px 10px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $custom) {
+  .edit-profile-page {
+    .profile-extra-details {
+      .extra-details-container {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}
+
+@media (max-width: $desktop) and (min-width: $tablet) {
+  .edit-profile-page {
+    .profile-extra-details {
+      padding: 40px 30px;
+      .profile-details-card {
+        .details-card-header {
+          h1 {
+            font-size: 20px;
+            line-height: 28px;
+            align-items: center;
+            button {
+              padding: 10px;
+              svg {
+                height: 18px;
+                width: 18px;
+              }
+            }
+          }
+        }
+        .details-card-body {
+          p {
+            font-size: 14px;
+          }
+          .download-wrapper {
+            padding: 0px;
+            .download-content {
+              padding: 15px 20px;
+              img {
+                display: none;
+              }
+              p {
+                font-size: 16px;
+                line-height: 26px;
+                margin-bottom: 15px;
+              }
+              button {
+                padding: 10px 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

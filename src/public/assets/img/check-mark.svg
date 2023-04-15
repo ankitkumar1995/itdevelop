@@ -1,0 +1,8 @@
+<svg id="checked_1_" data-name="checked (1)" xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <circle id="Oval" cx="60" cy="60" r="60" fill="#1f3c88"/>
+  <path id="Path" d="M0,51.132,30.716,82A59.943,59.943,0,0,0,75,24.051v-1.7L50.879,0Z" transform="translate(44 35)" fill="#070d59"/>
+  <g id="Group" transform="translate(20 29)">
+    <path id="Path-2" data-name="Path" d="M41.5,26.1a7.015,7.015,0,0,1,0,9.8l-5.507,5.464a7.151,7.151,0,0,1-9.875,0L1.994,17.24a7.015,7.015,0,0,1,0-9.8L7.5,1.978a7.151,7.151,0,0,1,9.875,0Z" transform="translate(0.047 17.57)" fill="#fff"/>
+    <path id="Path-3" data-name="Path" d="M43.774,1.978a7.151,7.151,0,0,1,9.875,0l5.507,5.464a7.015,7.015,0,0,1,0,9.8L17.377,58.5a7.151,7.151,0,0,1-9.875,0L1.994,53.039a7.015,7.015,0,0,1,0-9.8Z" transform="translate(18.849 0.047)" fill="#fff"/>
+  </g>
+</svg>
